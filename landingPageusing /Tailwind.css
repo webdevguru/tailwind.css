@@ -1,1 +1,57 @@
+"Day 19 with Tailwind CSS. Today, I built a landing page for a phone website using Tailwind CSS."
 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Best Used Phones in "LONDON" - Grab The Deal Now!</title>
+
+</head>
+
+<body>
+    <nav class="bg-purple-800 text-white flex justify-between">
+        <img src="https://www.kindpng.com/picc/m/118-1187214_cell-cellphone-cellular-gps-phone-connectivity-mobile-mobile.png"
+            class="h-12 pt-3 px-3 rounded-2xl" alt="img" srcset="">
+        <Ul class="px-28 py4 flex space-x-11 justify-end">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Catalogue</li>
+            <li class="cursor-pointer">Conatact Us</li>
+
+        </Ul>
+    </nav>
+    <main class=" bg-fuchsia-400 flex">
+        <div class="main  py-40 pl-9">
+            <div class="text-6xl ">
+                The Best Phones in the Town
+            </div>
+            <p class=" py-3 w-1/2">
+                Why Shop With Us? <br>
+                Wide Range of Products: From the latest flagship models to affordable smartphones, we have a
+                comprehensive collection to cater to all your mobile needs. <br>
+                Competitive Prices: Get the best deals and discounts on top-brand phones and accessories. <br>
+                Expert Advice: Our knowledgeable staff is here to help you choose the perfect phone and answer any
+                questions you may have. <br>
+                Excellent Customer Service: We are committed to providing a seamless shopping experience, from browsing
+                to purchase and beyond.
+            </p>
+            <div class="buttons">
+                <button
+                    class="bg-purple-800 px-3 py-2 rounded-2xl text-white hover:text-slate-900 hover:bg-fuchsia-700 mx-2 my=4">Buy
+                    NoW</button>
+                <button
+                    class="bg-purple-800 px-3 py-2 rounded-2xl text-white hover:text-slate-900 hover:bg-fuchsia-700 mx-2 my=4">Contact
+                    Us</button>
+            </div>
+        </div>
+         <div class="flex items-center">
+             <img src="https://webstockreview.net/images/clipart-boy-phone-9.png"  class=" h-24" alt="">
+         </div>
+    </main>
+</body>
+
+</html>
